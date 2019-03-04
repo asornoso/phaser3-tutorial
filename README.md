@@ -1,5 +1,6 @@
 # Phaser 3 Tutorial
-A Phaser3 tutorial and game. Used for my kids coding course @ Socal Tech Academy
+- A Phaser3 tutorial and game. 
+- Used for my kids coding course @ Socal Tech Academy
 http://socaltechacademy.com/
 
 ## How to follow along:
