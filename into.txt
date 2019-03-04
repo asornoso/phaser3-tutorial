@@ -1,0 +1,32 @@
+172.20.33.217:8081
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+"Action Button" + shooting:
+DOWNLOAD:
+  GamePadControllerWithButtons.js
+OPEN BUT DO NOT DOWNLOAD:
+  player.js
+  enemy.js
+
+1- import GamePadControllerWithButtons.js to index.html
+2- preload the button asset as 'actionButton'
+3- preload the projectile asset
+4- update update function to:
+  a- check for button press and trigger action
+  b- check for collision between player's projectiles and enemies
+  c- check for collision between enemy projectiles and player
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Animation Instructions:
+-Copy and paste the animation function into your player.js
+-Make a this.state and this.frame variable
+-Make your lists for your photo keys:
+  this.running = ['run1', 'run2', 'run3']
+  this.idle = ['idle']
+-preload all your files
+-update the move function in player.js to set the state
+-update the update function to in level1.js to make the player update
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
